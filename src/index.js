@@ -123,6 +123,42 @@ const productList = [
         img: blueberry
     }
 ];
+
+const serviceList = [
+    {
+        icon: 'fas fa-truck',
+        name: 'Fast Delivery',
+        desc: 'We ensure quick and reliable delivery of fresh produce to your doorstep.',
+    },
+    {
+        icon: 'fas fa-seedling',
+        name: 'Quality Products',
+        desc: 'Our products are sourced from trusted farms and suppliers, ensuring the highest quality.',
+    },
+    {
+        icon: 'fas fa-users',
+        name: 'Customer Support',
+        desc: 'Our dedicated customer support team is here to assist you with any inquiries or concerns.',
+    },
+    {
+        icon: 'fas fa-gift',
+        name: 'Special Offers',
+        desc: 'We provide special offers and discounts to make your shopping experience even better.',
+    },
+    {
+        icon: 'fas fa-recycle',
+        name: 'Sustainability',
+        desc: 'We prioritize sustainability by sourcing eco-friendly and organic products.',
+    },
+    {
+        icon: 'fas fa-calendar-check',
+        name: 'Flexible Scheduling',
+        desc: 'Choose a delivery schedule that suits your needs and preferences.',
+    },
+];
+
+
 export {
-    productList
+    productList,
+    serviceList
 }

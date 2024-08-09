@@ -262,21 +262,72 @@ body {
     margin-left: 5px;
 }
 
+/* service section */
+.services {
+    padding: 60px 0;
+    color: #333;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.row {
+    justify-content: center;
+}
+
+.service-card {
+    background-color: #eee; 
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    color: #222;
+    flex: 1 1 300px;
+    box-shadow: 0 4px 8px #000; 
+}
+
+.service-card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 6px 12px #000; 
+}
+
+.service-icon {
+    font-size: 3rem;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #222;
+}
+
+
+
 /* Responsive adjustments */
 @media (max-width: 576px) {
     .product-card {
-        flex: 1 1 100%; /* Full width on extra small screens */
+        flex: 1 1 100%;
     }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
     .product-card {
-        flex: 1 1 calc(50% - 20px); /* Two cards on small screens */
+        flex: 1 1 calc(50% - 20px); 
     }
 }
 
 @media (min-width: 769px) {
     .product-card {
-        flex: 1 1 calc(33.333% - 20px); /* Three cards on medium and larger screens */
+        flex: 1 1 calc(33.333% - 20px); 
     }
 }
