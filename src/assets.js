@@ -16,6 +16,7 @@ import peach from './assets/Product/peaches.jpeg'
 import strawberry from './assets/Product/strawberries.jpeg'
 import blueberry from './assets/Product/blueberries.jpeg'
 
+import contact from './assets/Contact/contact.png';
 
 export {
     home,
@@ -35,4 +36,5 @@ export {
     peach,
     strawberry,
     blueberry,
+    contact
 }

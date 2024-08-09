@@ -368,6 +368,48 @@ body {
     color: #555; 
 }
 
+/* contact us section */
+.contact-section {
+    padding: 60px 0;
+    background-color: #f8f9fa; 
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333; 
+}
+
+.contact-image {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.contact-section h3 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.contact-section .form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: none;
+}
+
+.contact-section .form-control:focus {
+    border-color: #333;
+}
+
+.contact-section .btn-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.contact-section .btn-dark:hover {
+    background-color: #444;
+}
+
 /* Responsive adjustments */
 @media (max-width: 576px) {
     .product-card {
