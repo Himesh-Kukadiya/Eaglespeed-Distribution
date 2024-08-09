@@ -1,5 +1,5 @@
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -160,12 +160,123 @@ body {
     color: #fff;
 }
 
-@media (max-width: 768px) {
-    .about-section .row {
-        flex-direction: column-reverse;
-    }
+/* product section */
+.products {
+    padding: 60px 0;
+    background-color: #f0f0f0; 
+    color: #333;
+}
 
-    .about-section .col-lg-6 {
-        margin-bottom: 20px;
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px #000;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    margin: 20px 0 10px;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.product-card .description {
+    flex-grow: 1;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: #666;
+    max-height: 3.6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.product-card .price {
+    font-size: 1rem;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.product-card .btn {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.product-card .btn:hover {
+    background-color: #555;
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.load-more-btn {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.load-more-btn:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+.load-more-btn i {
+    margin-left: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+    .product-card {
+        flex: 1 1 100%; /* Full width on extra small screens */
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .product-card {
+        flex: 1 1 calc(50% - 20px); /* Two cards on small screens */
+    }
+}
+
+@media (min-width: 769px) {
+    .product-card {
+        flex: 1 1 calc(33.333% - 20px); /* Three cards on medium and larger screens */
     }
 }
