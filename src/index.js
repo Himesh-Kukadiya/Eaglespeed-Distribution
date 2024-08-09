@@ -157,8 +157,35 @@ const serviceList = [
     },
 ];
 
+const testimonialsList = [
+    {
+        text: "Eaglespeed Distribution provided us with excellent service and quality products!",
+        name: "John Doe",
+    },
+    {
+        text: "The timely delivery and quality of produce were exceptional!",
+        name: "Jane Smith",
+    },
+    {
+        text: "Highly recommend! Great service and reliable products.",
+        name: "David Johnson",
+    },
+    {
+        text: "I was impressed with the quality and freshness of the products!",
+        name: "Emily Davis",
+    },
+    {
+        text: "Amazing experience! Will definitely order again!",
+        name: "Michael Wilson",
+    },
+    {
+        text: "Excellent customer service and top-notch quality!",
+        name: "Sarah Thompson",
+    },
+];
 
 export {
     productList,
-    serviceList
+    serviceList,
+    testimonialsList,
 }
