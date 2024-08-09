@@ -127,35 +127,41 @@ const productList = [
 const serviceList = [
     {
         icon: 'fas fa-truck',
-        name: 'Fast Delivery',
-        desc: 'We ensure quick and reliable delivery of fresh produce to your doorstep.',
+        name: 'Fresh Produce Distribution',
+        desc: 'We ensure the delivery of fresh produce to your doorstep, maintaining quality and freshness.',
     },
     {
-        icon: 'fas fa-seedling',
-        name: 'Quality Products',
-        desc: 'Our products are sourced from trusted farms and suppliers, ensuring the highest quality.',
+        icon: 'fas fa-shopping-cart',
+        name: 'Grocery Item Supplies',
+        desc: 'Comprehensive supply of essential grocery items to meet your needs.',
     },
     {
-        icon: 'fas fa-users',
-        name: 'Customer Support',
-        desc: 'Our dedicated customer support team is here to assist you with any inquiries or concerns.',
+        icon: 'fas fa-leaf',
+        name: 'Organic and Specialty Food Products',
+        desc: 'Sourcing organic and specialty food products for health-conscious consumers.',
     },
     {
-        icon: 'fas fa-gift',
-        name: 'Special Offers',
-        desc: 'We provide special offers and discounts to make your shopping experience even better.',
+        icon: 'fas fa-box',
+        name: 'Bulk Ordering and Delivery Services',
+        desc: 'Offering bulk ordering options with reliable delivery services.',
     },
     {
-        icon: 'fas fa-recycle',
-        name: 'Sustainability',
-        desc: 'We prioritize sustainability by sourcing eco-friendly and organic products.',
+        icon: 'fas fa-cogs',
+        name: 'Customizable Order Plans',
+        desc: 'Tailored order plans to suit your specific requirements and preferences.',
     },
     {
-        icon: 'fas fa-calendar-check',
-        name: 'Flexible Scheduling',
-        desc: 'Choose a delivery schedule that suits your needs and preferences.',
+        icon: 'fas fa-check-circle',
+        name: 'Quality Assurance and Control',
+        desc: 'Ensuring quality assurance and control throughout our supply chain.',
     },
+    // {
+    //     icon: 'fas fa-handshake',
+    //     name: 'Support for Local Farmers and Suppliers',
+    //     desc: 'Supporting local farmers and suppliers by sourcing their products.',
+    // },
 ];
+
 
 const testimonialsList = [
     {
