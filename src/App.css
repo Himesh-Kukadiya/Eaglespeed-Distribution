@@ -136,28 +136,10 @@ body {
     color: #333;
 }
 
-.lead {
-    font-size: 1.16rem;
-    margin-bottom: 20px;
-}
-
 .img-fluid {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-}
-
-.about-section .btn-dark {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.about-section .btn-dark:hover {
-    background-color: #444;
-    color: #fff;
 }
 
 /* product section */

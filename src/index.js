@@ -16,6 +16,33 @@ import {
     blueberry,
 } from './assets';
 
+const menuList = [
+    {
+        name: "Home",
+        href: "#home"
+    },
+    {
+        name: "About",
+        href: "#about"
+    },
+    {
+        name: "Products",
+        href: "#products"
+    },
+    {
+        name: "Services",
+        href: "#services"
+    },
+    {
+        name: "Testimonials",
+        href: "#testimonials"
+    },
+    {
+        name: "Contact",
+        href: "#contact"
+    }
+];
+
 const productList = [
     {
         name: "Fresh Apples",
@@ -155,11 +182,11 @@ const serviceList = [
         name: 'Quality Assurance and Control',
         desc: 'Ensuring quality assurance and control throughout our supply chain.',
     },
-    // {
-    //     icon: 'fas fa-handshake',
-    //     name: 'Support for Local Farmers and Suppliers',
-    //     desc: 'Supporting local farmers and suppliers by sourcing their products.',
-    // },
+    {
+        icon: 'fas fa-handshake',
+        name: 'Support for Local Farmers and Suppliers',
+        desc: 'Supporting local farmers and suppliers by sourcing their products.',
+    },
 ];
 
 
@@ -191,6 +218,7 @@ const testimonialsList = [
 ];
 
 export {
+    menuList,
     productList,
     serviceList,
     testimonialsList,
